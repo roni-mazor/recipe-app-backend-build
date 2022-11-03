@@ -17,6 +17,10 @@ app.use(express.static(path.resolve(__dirname, 'public')))
 const recipeRoutes = require('./api/recipe/recipe.routes.js')
 app.use('/api/recipe', recipeRoutes)
 
+app.get('/**', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
+
 const port = process.env.PORT || 3030
 http.listen(port, () => {
     console.log('running')
