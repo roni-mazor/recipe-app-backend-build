@@ -8,5 +8,20 @@
     "express": "^4.18.2",
     "mongodb": "^4.11.0",
     "mongoose": "^6.7.1"
-  }
+  },
+  "name": "recipe-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roni-mazor/recipe-app-backend-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roni-mazor/recipe-app-backend-build/issues"
+  },
+  "homepage": "https://github.com/roni-mazor/recipe-app-backend-build#readme",
+  "description": ""
 }
